@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hashicorp/hcl/hcl/ast"
+	"github.com/victormlourenco/hcl/hcl/ast"
 )
 
 func TestDecode_interface(t *testing.T) {
@@ -1061,7 +1061,7 @@ nested "content" {
 	}
 }
 
-// https://github.com/hashicorp/hcl/issues/60
+// https://github.com/victormlourenco/hcl/issues/60
 func TestDecode_topLevelKeys(t *testing.T) {
 	type Template struct {
 		Source string

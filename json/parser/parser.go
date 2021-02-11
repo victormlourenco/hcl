@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hashicorp/hcl/hcl/ast"
-	hcltoken "github.com/hashicorp/hcl/hcl/token"
-	"github.com/hashicorp/hcl/json/scanner"
-	"github.com/hashicorp/hcl/json/token"
+	"github.com/victormlourenco/hcl/hcl/ast"
+	hcltoken "github.com/victormlourenco/hcl/hcl/token"
+	"github.com/victormlourenco/hcl/json/scanner"
+	"github.com/victormlourenco/hcl/json/token"
 )
 
 type Parser struct {
